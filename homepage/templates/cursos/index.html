@@ -1,0 +1,265 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Conheça os Cursos EaD - FAESA</title>
+    <link rel="stylesheet" href="{% static 'cursos/css/style.css' %}" />
+    <link
+      rel="icon"
+      href="{% static 'cursos/favicon.jpg' %}"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="logo-container">
+          <img
+            src="{% static 'cursos/images/logo-faesa.png' %}"
+            alt="Logo FAESA"
+            class="logo-img"
+          />
+        </div>
+
+        <nav class="desktop-nav">
+          <a href="#" class="nav-item">Início</a>
+          <a href="#courses" class="nav-item">Cursos</a>
+          <a href="#about" class="nav-item">Sobre EaD</a>
+          <a href="#contact" class="nav-item">Contato</a>
+          <a href="#" class="signup-btn"> Inscrever-se </a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="course-card">
+        <div class="course-image-container">
+          <img
+            src="{% static 'cursos/images/analise.png' %}"
+            alt="Análise e Desenvolvimento de Sistemas"
+            class="course-image"
+          />
+        </div>
+        <div class="course-header">
+          <div class="course-icon-container">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-monitor course-icon"
+              data-lov-id="src/components/CourseCard.tsx:17:15"
+              data-lov-name="Monitor"
+              data-component-path="src/components/CourseCard.tsx"
+              data-component-line="17"
+              data-component-file="CourseCard.tsx"
+              data-component-name="Monitor"
+              data-component-content="%7B%22className%22%3A%22course-icon%22%7D"
+              data-darkreader-inline-stroke=""
+              style="--darkreader-inline-stroke: currentColor"
+            >
+              <rect width="20" height="14" x="2" y="3" rx="2"></rect>
+              <line x1="8" x2="16" y1="21" y2="21"></line>
+              <line x1="12" x2="12" y1="17" y2="21"></line>
+            </svg>
+          </div>
+          <h3 class="course-title">Análise e Desenvolvimento de Sistemas</h3>
+          <div class="course-duration">Duração: 2,5 anos</div>
+        </div>
+        <div class="course-content">
+          <p class="course-description">
+            Desenvolva softwares, sistemas e aplicações modernas com foco no
+            mercado de trabalho.
+          </p>
+        </div>
+        <div class="course-footer">
+          <a href="#" class="course-link"> Ver grade curricular </a>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-image-container">
+          <img
+            src="{% static 'cursos/images/redes.png' %}"
+            alt="Redes de Computadores"
+            class="course-image"
+          />
+        </div>
+        <div class="course-header">
+          <div class="course-icon-container">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-network course-icon"
+              data-lov-id="src/components/CourseCard.tsx:19:15"
+              data-lov-name="Network"
+              data-component-path="src/components/CourseCard.tsx"
+              data-component-line="19"
+              data-component-file="CourseCard.tsx"
+              data-component-name="Network"
+              data-component-content="%7B%22className%22%3A%22course-icon%22%7D"
+              data-darkreader-inline-stroke=""
+              style="--darkreader-inline-stroke: currentColor"
+            >
+              <rect x="16" y="16" width="6" height="6" rx="1"></rect>
+              <rect x="2" y="16" width="6" height="6" rx="1"></rect>
+              <rect x="9" y="2" width="6" height="6" rx="1"></rect>
+              <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"></path>
+              <path d="M12 12V8"></path>
+            </svg>
+          </div>
+          <h3 class="course-title">Redes de Computadores</h3>
+          <div class="course-duration">Duração: 2,5 anos</div>
+        </div>
+        <div class="course-content">
+          <p class="course-description">
+            Desenvolva habilidades para projetar, implementar e gerenciar
+            infraestruturas de redes, garantindo a segurança e disponibilidade
+            dos serviços.
+          </p>
+        </div>
+        <div class="course-footer">
+          <a href="#" class="course-link"> Ver grade curricular </a>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-image-container">
+          <img
+            src="{% static 'cursos/images/sistemas.png' %}"
+            alt="Sistemas de Informação"
+            class="course-image"
+          />
+        </div>
+        <div class="course-header">
+          <div class="course-icon-container">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-database course-icon"
+              data-lov-id="src/components/CourseCard.tsx:21:15"
+              data-lov-name="Database"
+              data-component-path="src/components/CourseCard.tsx"
+              data-component-line="21"
+              data-component-file="CourseCard.tsx"
+              data-component-name="Database"
+              data-component-content="%7B%22className%22%3A%22course-icon%22%7D"
+              data-darkreader-inline-stroke=""
+              style="--darkreader-inline-stroke: currentColor"
+            >
+              <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+              <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
+              <path d="M3 12A9 3 0 0 0 21 12"></path>
+            </svg>
+          </div>
+          <h3 class="course-title">Sistemas de Informação</h3>
+          <div class="course-duration">Duração: 4 anos</div>
+        </div>
+        <div class="course-content">
+          <p class="course-description">
+            Aprenda a utilizar a tecnologia da informação para auxiliar
+            processos de negócio, integrando sistemas e gerenciando recursos
+            computacionais.
+          </p>
+        </div>
+        <div class="course-footer">
+          <a href="#" class="course-link"> Ver grade curricular </a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <img
+              src="{% static 'cursos/images/logo-faesa.png' %}"
+              alt="Logo FAESA"
+              class="footer-logo"
+            />
+            <p class="footer-about">
+              A FAESA oferece cursos de graduação e pós-graduação na modalidade
+              presencial e a distância, com excelência acadêmica e compromisso
+              com a formação profissional.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="footer-heading">Cursos EaD</h3>
+            <ul class="footer-list">
+              <li>
+                <a href="#" class="footer-link"
+                  >Análise e Desenvolvimento de Sistemas</a
+                >
+              </li>
+              <li><a href="#" class="footer-link">Redes de Computadores</a></li>
+              <li>
+                <a href="#" class="footer-link">Sistemas de Informação</a>
+              </li>
+              <li><a href="#" class="footer-link">Ver todos os cursos</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer-heading">Links Rápidos</h3>
+            <ul class="footer-list">
+              <li><a href="#" class="footer-link">Sobre a FAESA</a></li>
+              <li><a href="#" class="footer-link">Processo Seletivo</a></li>
+              <li><a href="#" class="footer-link">Portal do Aluno</a></li>
+              <li><a href="#" class="footer-link">Biblioteca Virtual</a></li>
+              <li><a href="#" class="footer-link">Ouvidoria</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <p class="newsletter-text">
+              Inscreva-se em nossa newsletter para receber novidades e ofertas
+              especiais.
+            </p>
+            <div class="newsletter-form">
+              <input
+                type="email"
+                placeholder="Seu e-mail"
+                class="newsletter-input"
+              />
+              <button class="newsletter-button">OK</button>
+            </div>
+            <div style="text-align: start">
+              <p>
+                Contato: <br />Email: ead@faesa.br <br />
+                Tel:. (27) 2122-4111
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-divider">
+        <p class="copyright">
+          © 2025 FAESA Centro Universitário. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
